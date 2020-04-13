@@ -32,7 +32,7 @@ var interfaceConfig = {
     NATIVE_APP_NAME: 'Jitsi',
     PROVIDER_NAME: 'Quarantavern',
     LANG_DETECTION: true, // Allow i18n to detect the system language
-    INVITATION_POWERED_BY: true,
+    INVITATION_POWERED_BY: false,
 
     /**
      * If we should show authentication block in profile
