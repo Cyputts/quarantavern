@@ -151,8 +151,8 @@ export default class SharedVideoManager {
         this.mutedWithUserInteraction = APP.conference.isLocalAudioMuted();
 
         // listen for local audio mute events
-        this.localAudioMutedListener = this.onLocalAudioMuted.bind(this);
-        this.emitter.on(UIEvents.AUDIO_MUTED, this.localAudioMutedListener);
+        //this.localAudioMutedListener = this.onLocalAudioMuted.bind(this);
+        //this.emitter.on(UIEvents.AUDIO_MUTED, this.localAudioMutedListener);
 
         // This code loads the IFrame Player API code asynchronously.
         const tag = document.createElement('script');
